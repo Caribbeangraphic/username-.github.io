@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Caribbean Graphics - Little Corn Island, Nicaragua</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #94d2bd;
+            padding: 15px;
+        }
+
+        nav a {
+            color: #005f73;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #0a9396;
+        }
+
+        .hero {
+            background-image: url('little-corn-island.jpg'); /* Replace with an image of Little Corn Island */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h2 {
+            font-size: 3em;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .gallery div {
+            margin: 10px;
+            border: 2px solid #005f73;
+            padding: 5px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .gallery div:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2em;
+                text-align: center;
+            }
+            
+            .gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Caribbean Graphics - Little Corn Island, Nicaragua</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Experience the Beauty of Little Corn Island</h2>
+    </section>
+
+    <section class="gallery">
+        <div>
+            <img src="photo1.jpg" alt="Caribbean Beach">
+        </div>
+        <div>
+            <img src="photo2.jpg" alt="Island Sunset">
+        </div>
+        <div>
+            <img src="photo3.jpg" alt="Tropical Waters">
+        </div>
+        <div>
+            <img src="photo4.jpg" alt="Caribbean Landscape">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Caribbean Graphics. All rights reserved. | Little Corn Island, Nicaragua</p>
+    </footer>
+
+    <!-- Tawk.to Chat Integration -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/your-tawk-id/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+
+</body>
+</html>
